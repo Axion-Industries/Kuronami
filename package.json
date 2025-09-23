@@ -1,0 +1,13 @@
+{
+  "name": "kuronami",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kuronami static site - add Vercel Speed Insights integration",
+  "scripts": {
+    "start": "serve -s .",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^0.1.0"
+  }
+}
