@@ -5,6 +5,7 @@
   "description": "Kuronami static site - add Vercel Speed Insights integration",
   "scripts": {
     "start": "serve -s .",
+    "serve": "npx http-server -p 5000 -c-1 .",
     "install-deps": "npm install"
   },
   "dependencies": {
