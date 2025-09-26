@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="bg_about_scene_1_msk.svg" class="cls-1" d="M800,2963h600v220H900Z" transform="translate(-800 -2963)"/>
+</svg>
