@@ -1,4 +1,4 @@
-I want you to edit the main index.html file, and replace ONLY the website visible text, like everything that shows up on the website. Create a long to-go list, make sure EVERYTHING gets done flawlessly, and at tge end check that there are no errors, nothing wrong with the website at all. replace it with this: ヘッダー（ナビゲーション）
+I want you to edit the main index.html file, and replace ONLY the website visible text, like everything that shows up on the website. Create a long to-go list, make sure EVERYTHING gets done flawlessly, and at tge end check that there are no errors, nothing wrong with the website at all. ONLY replace the text, dont add or delete anything, keep the layout the same. replace it with this: ヘッダー（ナビゲーション）
 
 トップ｜ニュース｜放送情報（ONAIR）｜ABOUT
 　→ イントロダクション｜ストーリー｜スタッフ・キャスト｜キャラクター｜MOVIE｜Blu-ray｜MUSIC｜COMICS
