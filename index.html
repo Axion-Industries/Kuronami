@@ -44,7 +44,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body class="--top" data-lang="jp">
   <div class="l-wrap">
-    <!-- ヘッダー（ナビゲーション） -->
+    <div class="p-op">
+      <div class="p-op__bg">
+        <div class="p-op__bg-item"></div>
+        <div class="p-op__bg-item"></div>
+        <div class="p-op__bg-item"></div>
+        <div class="p-op__bg-item"></div>
+        <div class="p-op__bg-item"></div>
+      </div>
+      <div class="p-op__catch">
+        <div class="p-op__catch-item">
+          <picture>
+            <source media="(max-width: 899px)" srcset="images/txt_catch_jp_sp.png">
+            <img src="images/txt_catch_jp_pc.png" alt="">
+          </picture>
+        </div>
+        <div class="p-op__catch-item">
+          <picture>
+            <source media="(max-width: 899px)" srcset="images/txt_catch_jp_sp.png">
+            <img src="images/txt_catch_jp_pc.png" alt="">
+          </picture>
+        </div>
+        <div class="p-op__catch-item">
+          <picture>
+            <source media="(max-width: 899px)" srcset="images/txt_catch_jp_sp.png">
+            <img src="images/txt_catch_jp_pc.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
     <header class="l-header">
     <div class="l-header__menu">
     <div class="l-header__menu-btn js-menu-btn">
@@ -58,21 +86,70 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
     </div>
     <div class="l-header__menu-content">
-      <div class="l-header__menu-content-deco"></div>
+      <div class="l-header__menu-content-deco">
+      </div>
       <div class="l-header__menu-content-block">
         <div class="l-header__menu-content-inner">
           <div class="l-header__menu-content-lang" data-lang-item="jp">
             <ul class="l-header__menu-content-list">
-              <li class="l-header__menu-content-list-item">トップ</li>
-              <li class="l-header__menu-content-list-item">ニュース</li>
-              <li class="l-header__menu-content-list-item">放送情報（ONAIR）</li>
-              <li class="l-header__menu-content-list-item">ABOUT</li>
-              <li class="l-header__menu-content-list-item">　→ イントロダクション｜ストーリー｜スタッフ・キャスト｜キャラクター｜MOVIE｜Blu-ray｜MUSIC｜COMICS</li>
-              <li class="l-header__menu-content-list-item">スペシャル</li>
-              <li class="l-header__menu-content-list-item">ギャラリー</li>
-              <li class="l-header__menu-content-list-item">イベント</li>
-              <li class="l-header__menu-content-list-item">WORLD（世界観）</li>
-              <li class="l-header__menu-content-list-item">CONTACT</li>
+              <li class="l-header__menu-content-list-item">
+                <a class="p-in-text" href=".">TOP</a>
+              </li>
+              <li class="l-header__menu-content-list-item">
+                <a class="p-in-text" href="./news/">NEWS</a>
+              </li>
+              <li class="l-header__menu-content-list-item">
+                <a class="p-in-text" href="./onair/">ONAIR</a>
+              </li>
+
+
+                              <li class="l-header__menu-content-list-item js-menu-link" data-link=".p-about">
+                  <div class="p-in-text">ABOUT</div>
+                </li>
+                <li class="l-header__menu-content-list-item js-menu-link" data-link=".p-introduction">
+                  <div class="p-in-text">INTRODUCTION</div>
+                </li>
+                            <li class="l-header__menu-content-list-item">
+                <a class="p-in-text" href="./story/">STORY</a>
+              </li>
+
+              <li class="l-header__menu-content-list-item">
+                <a class="p-in-text" href="./staffcast/">STAFF&CAST</a>
+              </li>
+
+              <li class="l-header__menu-content-list-item">
+                <a class="p-in-text" href="./character/">CHARACTER</a>
+              </li>
+
+              <li class="l-header__menu-content-list-item">
+                <a class="p-in-text" target="_blank" href="https://www.youtube.com/@gachiakuta_PR">MOVIE</a>
+              </li>
+
+              <li class="l-header__menu-content-list-item">
+                <a class="p-in-text" href="./blu-ray/">Blu-ray</a>
+              </li>
+
+              <li class="l-header__menu-content-list-item">
+                <a class="p-in-text" href="./music/">MUSIC</a>
+              </li>
+
+                              <li class="l-header__menu-content-list-item js-menu-link" data-link=".p-comics">
+                  <div class="p-in-text">COMICS</div>
+                </li>
+              
+              <li class="l-header__menu-content-list-item">
+                <a class="p-in-text" href="./special/">SPECIAL</a>
+              </li>
+              <li class="l-header__menu-content-list-item">
+                <a class="p-in-text" href="./gallery/">GALLERY</a>
+              </li>
+              <li class="l-header__menu-content-list-item">
+                <a class="p-in-text" href="./news/?tag=1841">EVENT</a>
+              </li>
+
+              <li class="l-header__menu-content-list-item">
+                <a class="p-in-text" href="https://world-takeover.gachiakuta-anime.com" target="_blank">WORLD TAKEOVER</a>
+              </li>
             </ul>
           </div>
           <div class="l-header__menu-content-lang" data-lang-item="en">
@@ -173,15 +250,49 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
     <main class="p-main">
-      <!-- ヒーロー（トップビジュアル） -->
       <div class="p-kv">
         <div class="p-kv__inner">
-          <div class="p-kv__main-text is-pc">
-            <h1>『Kuronami（クロナミ）』</h1>
-            <p>渋谷スクランブル交差点――雨粒が光を砕くその場所で、二人の戦いが始まる。<br>3Dアニメーション短編（約5分）。疾走、衝突、そして限界の先へ。</p>
+          <div class="p-kv__deco">
+            <div class="p-kv__deco-item --label">
+            </div>
+            <div class="p-kv__deco-item">
+              <img src="images/deco_main_1.png" alt="">
+            </div>
+            <div class="p-kv__deco-item">
+              <img src="images/deco_main_2.png" alt="">
+            </div>
           </div>
-          <div class="p-kv__main-deco is-pc">
-            <h2>交差するのは、刃か、雷か。--『Kuronami』</h2>
+          <div class="p-kv__main">
+            <div class="p-kv__scroll is-pc">
+              <img src="images/btn_scroll.svg" alt="">
+            </div>
+            <div class="p-kv__main-image">
+              <img src="images/kv.jpg" alt="">
+            </div>
+            <div class="p-kv__main-text is-pc">
+              <img src="images/txt_main_1.svg" alt="">
+            </div>
+            <div class="p-kv__main-deco is-pc">
+              <img src="images/txt_main_2.svg" alt="">
+            </div>
+            <div class="p-kv__main-logo">
+              <img src="images/logo.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="p-kv__onair">
+          <img src="images/tape_onair.png" alt="">
+        </div>
+        <div class="l-header__lang is-sp">
+          <div class="l-header__lang-bg">
+                          <a href="./en/">
+                              <div class="l-header__lang-bg-item --jp">
+                  <img src="images/btn_lang_jp.png" alt="">
+                </div>
+                <div class="l-header__lang-bg-item --en">
+                  <img src="images/btn_lang_en.png" alt="">
+                </div>
+                </a>
           </div>
         </div>
       </div>
@@ -213,26 +324,93 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       </div>
       <section class="p-about" data-scroll-effect="">
+        <div class="p-about__label"></div>
+        <div class="p-about__bg">
+          <div class="p-about__bg-item">
+            <img data-src="./assets/img/top/about/bg_about_scene_1.jpg" class="lazyload" alt="">
+          </div>
+          <div class="p-about__bg-item">
+            <img data-src="./assets/img/top/about/bg_about_scene_2.jpg" class="lazyload" alt="">
+          </div>
+        </div>
+        <div class="p-about__deco">
+          <div class="p-about__deco-item">
+            <img data-src="./assets/img/top/about/deco_about_1.png" class="lazyload" alt="">
+          </div>
+          <div class="p-about__deco-item">
+            <img data-src="./assets/img/top/about/deco_about_2.png" class="lazyload" alt="">
+          </div>
+          <div class="p-about__deco-item">
+            <img data-src="./assets/img/top/about/deco_about_3.svg" class="lazyload" alt="">
+          </div>
+          <div class="p-about__deco-item">
+            <img data-src="./assets/img/top/about/deco_about_4.svg" class="lazyload" alt="">
+          </div>
+          <div class="p-about__deco-item">
+            <img data-src="./assets/img/top/about/deco_about_5.png" class="lazyload" alt="">
+          </div>
+        </div>
         <div class="p-about__main">
           <div class="p-about__title">
-            <h2>Kuronamiとは</h2>
+            <h2>
+              <img src="images/ttl_about.svg" alt="ガチアクタとは？">
+            </h2>
           </div>
           <div class="p-about__detail">
             <div class="p-about__detail-inner">
               <div class="p-about__detail-item">
-                <p>『Kuronami（クロナミ）』は、都市の喧噪と霧雨の中で展開する、二人の戦士による短編戦闘劇です。物語の中心には“マクラ（Makurai）”と呼ばれる力の体系があり、個々の習得と衝突が登場人物たちの運命を決定づけます。本作は、技巧と心理描写を短時間で凝縮し、「誇り」「守るべきもの」「限界の突破」というテーマをダイナミックなアニメーションで描きます。<br><br>制作はAxion Industriesによる自主制作プロジェクト。完全ソロ制作で3Dアニメらしいダイナミックなカメラワークと質感表現を追求しています。</p>
+                <p class="u-label-red">奈落（底辺）から這い上がれ！<br class="is-sp">すべては「クソみたいな世界」を変えるために――！！</p>
+              </div>
+              <div class="p-about__detail-item">
+                <p>
+                  『ガチアクタ』は、犯罪者の子孫たちが暮らす<br class="is-sp">スラム街に生まれた孤児の少年・ルドを主人公にした<br class="is-sp">バトルアクションで、<br class="is-sp"><span class="u-label-red">原作・裏那圭／graffiti design・晏童秀吉</span>による<br class="is-sp">講談社「週刊少年マガジン」にて<br class="is-sp">2022年2月から連載を開始した作品。<br>
+                  『ガチアクタ』は<span class="u-label-red">「次にくるマンガ大賞2022」<br class="is-sp">コミックス部門でGlobal特別賞を受賞。</span><br>
+                  裏那は『ガチアクタ』の構想を練る中、グラフィティデザインを取り入れることでより面白くなるのではないかと考え、<br class="is-sp">グラフィティデザイナーである晏童秀吉の協力を得た。
+                </p>
+              </div>
+              <div class="p-about__detail-item">
+                <p>
+                  敵は「常識」「権力」「差別偏見」！<br>
+                  話題の激震漫画が、ついに<br class="is-sp"><span class="u-label-red">2025年7月CBC/TBS系全国28局ネットにて放送スタート！</span>
+                  制作はアニメスタジオボンズフィルムが担当する。
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
       <section class="p-introduction" data-scroll-effect="">
+        <div class="p-introduction__bg"></div>
         <div class="p-introduction__inner">
           <div class="p-introduction__title">
-            <h2>イントロダクション（作品概要）</h2>
+            <h2>
+              <span class="p-in-item">
+                <picture>
+                  <source media="(max-width: 899px)" srcset="images/ttl_intr_sp.png">
+                  <img src="images/ttl_intr_pc.png" alt="INTRODUCTION">
+                </picture>
+              </span>
+              <span class="p-in-item">
+                <picture>
+                  <source media="(max-width: 899px)" srcset="images/ttl_intr_sp.png">
+                  <img src="images/ttl_intr_pc.png" alt="INTRODUCTION">
+                </picture>
+              </span>
+              <span class="p-in-item">
+                <picture>
+                  <source media="(max-width: 899px)" srcset="images/ttl_intr_sp.png">
+                  <img src="images/ttl_intr_pc.png" alt="INTRODUCTION">
+                </picture>
+              </span>
+            </h2>
           </div>
           <div class="p-introduction__detail">
-            <p>形式：3Dアニメーション短編映画<br>上映時間：約5分（本編）<br>舞台：渋谷スクランブル交差点（霧雨）を中心とした都市一帯<br>主題：二人の戦士が互いの信念と力でぶつかり合い、真実と自らの限界に向き合う物語<br>制作：Axion Industries（単独制作、Blender / BlenderKit / Mixamo を主ツールに制作）<br>音声制作補助：ElevenLabs 等を使用（声の演出やサンプル生成に活用）</p>
+            <p>
+              『ガチアクタ』は犯罪者の子孫たちが暮らす<br class="is-sp">スラム街に生まれた孤児の少年・ルドを<br class="is-sp">主人公にしたバトルアクション。<br>
+              スラム街で生きる人間たちは、境界線の向こうの人々から<br class="is-sp">“族民”とさげすまれ差別を受けながら生活している。<br>
+              そんな世界でルドは、育ての親であるレグトとともに、<br>“ゴミ場荒らし”と呼ばれながらも<br class="is-sp">常人離れした身体能力を武器に生計を立てていた。<br>
+              だがある日、身に覚えのない罪を着せられ、<br class="is-sp">誰もが恐れる「奈落」へと落とされてしまう。
+            </p>
           </div>
         </div>
       </section>
@@ -247,7 +425,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
               <div class="p-news__header-title c-title">
                 <h2 class="c-title__text">
-                  <span>ストーリー（短いあらすじ）</span>
+                  <span>NEWS</span>
+                  <span>ニュース</span>
                 </h2>
               </div>
               <div class="p-news__header-more">
@@ -258,47 +437,81 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
           </div>
           <div class="p-news__content">
-            <div class="p-news__main-text">
-              <p>渋谷の夜、薄い霧雨が交差点を包む。街の灯りが湿ったアスファルトに反射する中、雷の気配を纏う少年──<strong>雷拳（ライケン）</strong>ことライケンと、朽ちを宿す刃を持つ暗影の使い手──<strong>黒師（クロシ）</strong>ことクロシが、運命的に出会う。二人は互いに何かを賭け、短時間で決着をつけるべく激突する。<br><br>戦闘はレイヤー化された心理戦でもあり、ライケンは己の誇りと守るべきもののために極限まで力を引き出し、クロシは冷徹な計算と“朽ち”の力で相手の動きを蝕む。戦いが進むにつれ、互いの過去の断片と動機が断片的に明かされ、最後は衝撃的な一瞬でタイトルへと繋がる――観客に問いを投げかける終幕を迎える。</p>
-            </div>
+                        <ul class="p-news_list__main-list l-news_list"><li class="p-news_list__main-list-item l-news_list__item"><a class="p-news_list__main-list-item-link l-news_list__item-link" href="../news/detail/?id=1128332"></a><div class="p-news_list__main-list-item-inner l-news_list__inner"><div class="p-news_list__main-list-item-head l-news_list__head"><div class="p-in-date l-news_list__date">2025.09.22</div><div class="p-in-category l-news_list__category">event</div></div><div class="p-in-title l-news_list__title"><div class="l-news_list__title-link-text">GACHIAKUTA Beginning Exhibition『DROP』開催決定！</div></div><div class="p-in-icon l-news_list__icon"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" viewBox="0 0 36 28">
+                                    <path d="M1136.15,4605h-8.3l13.84-14-13.84-14h8.3l13.85,14Zm-13.84,0H1114l13.85-14L1114,4577h8.31l13.84,14Z" transform="translate(-1114 -4577)"></path>
+                                  </svg></div></div></li><li class="p-news_list__main-list-item l-news_list__item"><a class="p-news_list__main-list-item-link l-news_list__item-link" href="../news/detail/?id=1128258"></a><div class="p-news_list__main-list-item-inner l-news_list__inner"><div class="p-news_list__main-list-item-head l-news_list__head"><div class="p-in-date l-news_list__date">2025.09.16</div><div class="p-in-category l-news_list__category">event</div></div><div class="p-in-title l-news_list__title"><div class="l-news_list__title-link-text">アニメイト池袋本店にて『ガチアクタ』スペシャル展示開催中！</div></div><div class="p-in-icon l-news_list__icon"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" viewBox="0 0 36 28">
+                                    <path d="M1136.15,4605h-8.3l13.84-14-13.84-14h8.3l13.85,14Zm-13.84,0H1114l13.85-14L1114,4577h8.31l13.84,14Z" transform="translate(-1114 -4577)"></path>
+                                  </svg></div></div></li><li class="p-news_list__main-list-item l-news_list__item"><a class="p-news_list__main-list-item-link l-news_list__item-link" href="../news/detail/?id=1127931"></a><div class="p-news_list__main-list-item-inner l-news_list__inner"><div class="p-news_list__main-list-item-head l-news_list__head"><div class="p-in-date l-news_list__date">2025.09.08</div><div class="p-in-category l-news_list__category">info</div></div><div class="p-in-title l-news_list__title"><div class="l-news_list__title-link-text">『ガチアクタ』9話放送記念 ファンアート募集企画スタート！</div></div><div class="p-in-icon l-news_list__icon"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" viewBox="0 0 36 28">
+                                    <path d="M1136.15,4605h-8.3l13.84-14-13.84-14h8.3l13.85,14Zm-13.84,0H1114l13.85-14L1114,4577h8.31l13.84,14Z" transform="translate(-1114 -4577)"></path>
+                                  </svg></div></div></li></ul>
           </div>
         </div>
       </section>
       <section class="p-comics" data-scroll-effect="">
         <div class="p-comics__content">
-          <div class="p-comics__content-title c-title is-sp">
-            <h2 class="c-title__text"><span>キャラクター</span></h2>
-          </div>
-          <div class="p-comics__content-detail">
-            <div class="p-comics__content-detail-title is-pc c-title">
-              <h2 class="c-title__text"><span>ライケン（Raiken）</span></h2>
-            </div>
-            <div class="p-in-name">CV：Nathaniel<br>年齢／外見：二十代前半相当。雷を纏う細身で俊敏な戦士。濡れた黒髪と、怒りが灯ると赤黒く光る雷の文様を持つ。<br>性格：誇り高く、挑戦を好む。過去の喪失とトラウマがあり、それが強さへの執着に繋がっている。仲間を守ることに強い使命感を抱く。<br>能力（Makurai）：雷と電気を自在に操る。高速移動と瞬間的な発現力に優れる。雨や湿度をエネルギー源に変換する応用が得意。通常は白青の稲妻を纏うが、感情が極限に達すると雷が暗赤〜黒に変色し、破壊力と速さが飛躍的に上がる。<br>主な技：<br><br>指鳴（しめい） — 指先の一撃で局所的な落雷を発生させる（精密な遠距離攻撃）。<br>天雷充填（てんらいじゅうてん） — 体内に雷を溜め、解放することで大規模な破壊を伴う一撃を放つ（チャージ技）。<br>背景：幼少期の事件により“守る”という信念を強く持つ。力を試すことと限界を超えることを生き甲斐としている。</div>
-            <div class="p-comics__content-detail-title is-pc c-title">
-              <h2 class="c-title__text"><span>クロシ（Kuroshi）</span></h2>
-            </div>
-            <div class="p-in-name">CV：Sully<br>年齢／外見：年齢不詳だが若年層。黒衣に身を包み、刃に不穏な瘴気を宿す。動きは流麗かつ無慈悲。<br>性格：冷静沈着で計算高い。感情は表に出さないが、内には義務や復讐といった強い動機を抱える。目的のためには手段を選ばない。<br>能力（Makurai + Shōmatsu）：主流の“Makurai”をベースにしつつ、刃に宿る“Shōmatsu（ショウマツ）”と呼ばれる特異な作用で接触した対象に“朽ち”や腐蝕的影響を残す。短時間の消失・瞬間移動と高密度の斬撃を組み合わせ、戦場の支配を目論む。<br>主な技：<br><br>アラケイ（ARAK EI） — 短秒（0.2秒程度）の消失と瞬間再出現を繰り返す高機動隠密術。奇襲と回避に特化。<br>痕切（こんせつ） — 空間に残像の刃を刻み、それを追尾させることで遠隔の斬撃を行う（刃跡は朽ちをもたらす）。<br>背景：刀に宿る“朽ち”の力は彼自身の過去と深く結びついている。任務感と私怨が複雑に絡み合い、戦闘では感情を抑えた冷酷さを見せる。</div>
-          </div>
-        </div>
+<div class="p-comics__content-title c-title is-sp">
+<h2 class="c-title__text"><span>COMICS</span><span>原作コミックス</span></h2>
+</div>
+
+<div class="p-comics__content-image">
+<div class="p-in-inner">
+<div class="p-in-item"><img alt="" src="images/img_comics.jpg"></div>
+
+<div class="p-in-copy">©裏那圭・晏童秀吉／講談社</div>
+</div>
+</div>
+
+<div class="p-comics__content-detail">
+<div class="p-comics__content-detail-title is-pc c-title">
+<h2 class="c-title__text"><span>COMICS</span> <span>原作コミックス</span></h2>
+</div>
+
+<div class="p-in-name">原作コミックス『ガチアクタ』<br>
+<span class="u-small">（講談社「週刊少年マガジン」連載中）</span></div>
+
+<div class="p-in-date">1巻～15巻発売中！</div>
+
+<div class="p-in-btn c-link"><a href="https://pocket.shonenmagazine.com/episode/3269754496757736611" target="_blank"> </a>
+
+<div class="p-in-btn-text c-link__text">試し読みはこちら
+<div class="p-in-icon c-link__text-icon"><svg height="28" viewBox="0 0 36 28" width="36" xmlns="http://www.w3.org/2000/svg"> <path d="M1136.15,4605h-8.3l13.84-14-13.84-14h8.3l13.85,14Zm-13.84,0H1114l13.85-14L1114,4577h8.31l13.84,14Z" transform="translate(-1114 -4577)"></path> </svg></div>
+</div>
+</div>
+</div>
+</div>
+
+      </section>
     </main>
     <div class="l-footer">
-  <div class="l-footer">
-    <div class="l-footer__deco"></div>
-    <div class="l-footer__banner"></div>
-    <div class="l-footer__staff">
-      <h2>スタッフ・キャスト</h2>
-      <ul>
-        <li>監督・制作：Axion Industries（単独制作プロジェクト）</li>
-        <li>脚本：制作チーム（Axion Industries）</li>
-        <li>アニメーション（モデリング／リギング／アニメ）：Axion Industries（Blender／Mixamo／BlenderKit を使用）</li>
-        <li>音響監督：制作チーム（音響設計・効果音選定）</li>
-        <li>音声制作補助：ElevenLabs（意図的な声質調整・サンプル作成に使用）</li>
-        <li>キャスト：ライケン（Raiken）：Nathaniel（CV）、クロシ（Kuroshi）：Sully（CV）</li>
-        <li>音楽：未定（オリジナルサウンドトラック制作予定）</li>
-        <li>制作協力：各種オープンアセット提供元（クレジットページにて明記予定）</li>
-        <li>注：本作は完全自主制作のため、小規模なチーム（実質ソロ）で作られています。外部素材・ツールを活用しつつ唯一無二の映像表現を目指しています。</li>
-      </ul>
+  <div class="l-footer__deco">
+    <div class="l-footer__deco-item">
     </div>
+    <div class="l-footer__deco-item">
+      <img data-src="./assets/img/common/deco_ftr_1.png" class="lazyload" alt="">
+    </div>
+    <div class="l-footer__deco-item">
+      <img data-src="./assets/img/common/deco_ftr_2.png" class="lazyload" alt="">
+    </div>
+    <div class="l-footer__deco-item">
+      <img data-src="./assets/img/common/deco_ftr_3.png" class="lazyload" alt="">
+    </div>
+  </div>
+  <div class="l-footer__banner">
+<div class="l-footer__banner-inner">
+<div class="l-footer__banner-main">
+<ul class="l-footer__banner-main-list">
+	<li class="l-footer__banner-main-list-item"><a class="p-in-link" href="https://app.adjust.com/x5bu8wh" target="_blank"><img alt="" src="images/72c5e130720008c04074c61bd43bce243d2da7c7_685d1a09b70b9.png"> </a></li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+
+<script src="js/api-copy.js" defer=""></script>
+  <!-- BEGIN avex共通フッター -->
+  <div id="acommoncopy" data-color="black" data-wovn="0" data-copyright="©裏那圭・晏童秀吉・講談社／「ガチアクタ」製作委員会"></div>
+  <!-- END avex共通フッター -->
   </div>
   <script src="js/js-scroll-module.js"></script>
 <script src="js/js-scroll-effect-module.js"></script>
